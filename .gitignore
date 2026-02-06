@@ -1,0 +1,53 @@
+
+
+# Databases
+*.db
+
+# Environment variables
+**/.env
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node.js
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific binaries (optional, but keeping repo clean)
+*.png
+*.jpg
+*.jpeg
+!ocr_test.png
+!recolored_bottle.jpg
+!test_bottle.jpg
